@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__pgm
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -H/fs03/share/users/simon.niceron/home/Bureau/5A/GPU/2122_5imi_skinning-deddah_loubeyre_niceron-main/project -B/fs03/share/users/simon.niceron/home/Bureau/5A/GPU/2122_5imi_skinning-deddah_loubeyre_niceron-main/build
+  command = /usr/bin/cmake -H/fs03/share/users/simon.niceron/home/Bureau/5A/https---github.com-CPELyon-2122_5imi_skinning-deddah_loubeyre_niceron/project -B/fs03/share/users/simon.niceron/home/Bureau/5A/https---github.com-CPELyon-2122_5imi_skinning-deddah_loubeyre_niceron/build
   description = Re-running CMake...
   generator = 1
 

@@ -232,7 +232,8 @@ void scene::load_scene()
     sk_monster_bind_pose = local_to_global(sk_monster_bind_pose, sk_monster_parent_id); //mettre les joints dans le repere global
 
     mesh_monster.fill_empty_field_by_default(); 
-    mesh_monster_opengl.fill_vbo(mesh_monster);     
+    mesh_monster_opengl.fill_vbo(mesh_monster);    
+    glBindTexture(GL_TEXTURE_2D,texture_monster);  
 
     timer1.start();
     timer2.start();
@@ -358,7 +359,7 @@ void scene::setup_shader_mesh(GLuint shader_id)
     glUniformMatrix4fv(get_uni_loc(shader_id,"normal_matrix"),1,false,cam.normal.pointer());           PRINT_OPENGL_ERROR();
 
     //load white texture
-    glBindTexture(GL_TEXTURE_2D,texture_default);                                                      PRINT_OPENGL_ERROR();
+    //glBindTexture(GL_TEXTURE_2D,texture_default);                                                      PRINT_OPENGL_ERROR();
     glLineWidth(1.0f);                                                                                 PRINT_OPENGL_ERROR();
 
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /fs03/share/users/simon.niceron/home/Bureau/5A/GPU/2122_5imi_skinning-deddah_loubeyre_niceron-main/project
+# Install script for directory: /fs03/share/users/simon.niceron/home/Bureau/5A/https---github.com-CPELyon-2122_5imi_skinning-deddah_loubeyre_niceron/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/fs03/share/users/simon.niceron/home/Bureau/5A/GPU/2122_5imi_skinning-deddah_loubeyre_niceron-main/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/fs03/share/users/simon.niceron/home/Bureau/5A/https---github.com-CPELyon-2122_5imi_skinning-deddah_loubeyre_niceron/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
